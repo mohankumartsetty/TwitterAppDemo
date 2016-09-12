@@ -1,0 +1,11 @@
+{
+ "namespace": "com.tjx.dto",
+ "type": "record",
+ "name": "Tweet",
+ "fields": [
+ {"name": "tweetId", "type": "string"},
+ {"name": "tweetMessage", "type": "string"},
+ {"name": "created", "type": "string"},
+ {"name": "authorId", "type": "string"}
+ ]
+}
